@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  padding: 0%;
+  margin: 0%;
+}
+body{
+  background-color: rgba(243, 229, 215, 1);
+
+}
+.container{
+  max-width: 736px;
+  max-height: 1700px;
+
+  width: 736px;
+  height: 1700px;
+
+  margin-left:35%;
+  margin-right: 35%;
+  margin-top: 128px;
+  margin-bottom: 128px;
+
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+img{
+  padding: 40px;
+  width: 656px;
+  height: 300px;
+
+  border-radius: 15px;
+}
+
+.content{
+ 
+  width: 656px;
+  height: 1280px;
+ 
+  max-width: 656px;
+  height: 1280px;
+  margin: 0px 40px 40px 40px;
+}
+
+.about{
+  padding-bottom: 32px;
+}
+.head1{
+  font-family: "Young Serif";
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+
+.para1{
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(95, 86, 77, 1);
+}
+
+.prep{
+  width: 656px;
+  height: 172px;
+
+  max-width: 656px;
+  max-height: 172px;
+
+  padding: 24px;
+
+  background-color: rgba(255, 247, 251, 1);
+
+  border-radius: 15px;
+}
+
+.head2{
+         color: rgba(122, 40, 78, 1);
+         font-family: "Outfit";
+         font-weight: 600;
+
+         height: 20px;
+         padding-bottom: 16px;
+}
