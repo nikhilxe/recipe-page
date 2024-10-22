@@ -67,7 +67,8 @@ img{
   max-width: 656px;
   max-height: 172px;
 
-  padding: 24px;
+  padding-top: 24px;
+  padding-left: 24px;
 
   background-color: rgba(255, 247, 251, 1);
 
@@ -78,7 +79,187 @@ img{
          color: rgba(122, 40, 78, 1);
          font-family: "Outfit";
          font-weight: 600;
-
+         font-size: 24px;
          height: 20px;
          padding-bottom: 16px;
+}
+
+.list1{
+   margin-left: -10px;
+   
+}
+.list1 li{
+  margin-bottom: 8px;
+  margin-top: 8px;
+  height: 24px;
+
+  font-family: "Outfit";
+  font-weight: 600;
+
+  text-indent: 32px;
+  
+ 
+}
+.list1 span{
+  font-weight: 400;
+  color: rgba(95, 86, 77, 1);
+}
+
+
+
+li::marker {
+
+  max-width: 4px;
+  max-height: 4px;
+  color: rgba(122, 40, 78, 1);
+  font-size: 16px; 
+}
+
+.ingredients{
+  width: 656px;
+  height: 204px;
+
+  margin-top: 32px;
+  margin-bottom: 32px;
+  
+}
+.head3{
+  font-family: "Young Serif";
+  font-weight: 400;
+  font-size: 28px;
+  margin-bottom: 24px;
+  color: rgba(133, 70, 50, 1);
+}
+
+.list2{
+  margin-left: 24px;
+  height: 152px;
+  
+}
+
+.list2 li{
+  margin-bottom: 8px;
+  margin-top: 8px;
+  height: 24px;
+  font-size: 16px;
+  font-family: "Outfit";
+  font-weight: 400;
+  color: rgba(95, 86, 77, 1);
+  
+  padding-left: 0px;
+}
+
+.line{
+  border: 1px solid rgba(227, 221, 215, 1);
+  margin-top: 32px;
+}
+
+.instructions{
+  width: 656px;
+  height: 204px;
+
+  margin-top: 32px;
+  margin-bottom: 32px;
+
+ 
+ }
+.olist{
+  margin-left: 24px;
+  height: 152px;
+ }
+ .olist li{
+  margin-bottom: 8px;
+  margin-top: 8px;
+
+
+  font-size: 16px;
+
+  font-family: "Outfit";
+  font-weight: 400;
+  color: rgba(95, 86, 77, 1);
+  padding-left: 20px;
+  text-indent: -36px;
+ }
+
+ .olist li::marker {
+
+  max-width: 4px;
+  max-height: 4px;
+  color: rgba(133, 70, 50, 1);
+  font-size: 16px; 
+  font-weight: 700;
+}
+
+ol {
+  word-break: break-all;
+  margin: 0;
+  padding: 0;
+}
+ol ol {
+    margin-left: 2em;
+}
+li {
+  list-style-position: inside;
+  padding: 0;
+}
+li::before {
+  content: "";
+  width: 20px;
+  display: inline-block;
+}
+
+.ht{
+  font-weight: 800;
+  color:rgba(95, 86, 77, 1);
+}
+
+.line2{
+  border: 1px solid rgba(227, 221, 215, 1);
+  margin-top: 132px;
+}
+
+.nutrition{
+  padding-top: 32px;
+  padding-bottom: 40px;
+
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(95, 86, 77, 1);
+}
+.chart{
+  width: 656px;
+  height: 168px;
+  padding-top: 24px;
+}
+.entry{
+  height: 24px;
+}
+.detail{
+  width: 288px;
+  height: 24px;
+  margin-left: 32px;
+ 
+}
+.value{
+  padding-left: 262px;
+  width: 288px;
+  height: 24px;
+  color: rgba(133, 70, 50, 1);
+  font-weight: 800;
+}
+
+.linec{
+  border: 1px solid rgba(227, 221, 215, 1);
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.v2{
+  padding-left: 276px;
+}
+.v3{
+  padding-left: 268px;
+}
+.v4{
+  padding-left: 296px;
 }
